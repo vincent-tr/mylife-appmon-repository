@@ -1,0 +1,28 @@
+{
+  "name": "mylife-appmon-repository",
+  "version": "1.0.0",
+  "description": "MyLife Application Monitoring Repository",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint bin/*",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=mylife:appmon:* node bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincent-tr/mylife-appmon-repository.git"
+  },
+  "author": "Vincent Trumpff",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/vincent-tr/mylife-appmon-repository/issues"
+  },
+  "homepage": "https://github.com/vincent-tr/mylife-appmon-repository#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "mylife-appmon": "github:vincent-tr/mylife-appmon"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0"
+  }
+}
